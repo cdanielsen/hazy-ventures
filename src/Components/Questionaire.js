@@ -51,6 +51,11 @@ export default class Questionare extends Component {
                 </FormGroup>
 
                 <FormGroup>
+                  <Label for="ssn">Last 9 Digits of Your Social Security Number</Label>
+                  <Input name="ssn" id="ssn" />
+                </FormGroup>
+
+                <FormGroup>
                   <Label for="vaccinations">Are your vaccinations up to date?</Label>
                   <Input type="select" name="select" id="vaccinations">
                     <option></option>
@@ -101,7 +106,8 @@ export default class Questionare extends Component {
                   <Input name="kin" id="name" />
                 </FormGroup>
 
-                <Button className="primary" onClick={ this.handleSubmit }>Get Lost!</Button>
+                <Button style={{ marginBottom: '1em' }} className="primary" onClick={ this.handleSubmit }>Get Lost!</Button>
+                <p style={{ fontSize: 9 }} className="text-muted">By clicking "Get Lost!" I aggree that my life insurance policy is paid up and Hazy Ventures will not be held liable for what comes next.</p>
               </Form>
             </Col>
           </Row>
