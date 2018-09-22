@@ -4,26 +4,30 @@ import React, { Component } from 'react';
 export default class Packages extends Component {
     render() {
       return (
-        <section id="packages">
+        <section id="packages" className={"container"}>
           <h2>Premade Vacation Bundles</h2>
-          <ul>
-            <li>
+          <div className={"row"}>
+            <div className={"col"}>
               <img src="https://via.placeholder.com/350x250"/>
               <h3>Sink or Swim...</h3>
-            </li>
-            <li>
+            </div>
+
+            <div className={"col"}>
               <img src="https://via.placeholder.com/350x250"/>
               <h3>Welcome to the Jungle...</h3>
-            </li>
-            <li>
+            </div>
+          </div>
+          <div className={"row"}>
+            <div className={"col"}>
               <img src="https://via.placeholder.com/350x250"/>
-              <h3>On the Beach...</h3>
-            </li>
-            <li>
+              <h3>On the Beach ...</h3>
+            </div>
+
+            <div className={"col"}>
               <img src="https://via.placeholder.com/350x250"/>
               <h3>Cliff Hanger...</h3>
-            </li>
-          </ul>
+            </div>
+          </div>
         </section>
       );
     }
