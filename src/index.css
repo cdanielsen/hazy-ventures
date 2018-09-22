@@ -12,11 +12,29 @@ h1#splash-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 10em;
+  transform: translate(-50%, -75%);
+  font-size: 15em;
 }
 
 #header-container {
   position: relative;
   text-align: center;
+}
+
+#book-trip {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 2em;
+
+}
+
+#feeling-unlucky {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  font-size: 2em;
+
 }
