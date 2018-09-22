@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class Packages extends Component {
     render() {
       return (
-        <section>
+        <section id="packages">
           <h2>Premade Vacation Bundles</h2>
           <ul>
             <li>
