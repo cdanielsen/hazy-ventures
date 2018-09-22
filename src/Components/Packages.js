@@ -5,7 +5,7 @@ export default class Packages extends Component {
     render() {
       return (
         <section id="packages" className={"container"}>
-          <h2 className={"display-1"}>Premade Vacation Bundles</h2>
+          <marquee><h2 className={"display-1"}>Preplanned Vacation Bundles</h2></marquee>
           <div className={"row"}>
             <div className={"col"}>
               <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/d5/68/86/spider-house-resort.jpg"/>
