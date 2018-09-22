@@ -23,11 +23,11 @@ export default class Questionare extends Component {
     const { submitted } = this.state;
 
     return (
-      <Container>
+      <Container style={ { paddingBottom: '10em' } }>
         { !submitted &&
           <Row>
             <Col sm={ { size: 6, offset: 3 } }>
-              <h1>Book Your "Trip!"</h1>
+              <h1>Book Your "Trip"</h1>
 
               <Form>
                 <FormGroup>
