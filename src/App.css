@@ -27,7 +27,7 @@
   to { transform: rotate(360deg); }
 }
 
-/* #packages ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
+#packages img {
+  max-width: 350px;
+  max-height: 250px;
+}
